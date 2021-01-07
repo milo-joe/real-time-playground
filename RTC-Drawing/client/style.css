@@ -1,0 +1,62 @@
+:root{
+    --body : #ffe6e6;
+    --colorsback: #ffdcb8;
+}
+
+body{
+    background-color: var(--body);
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    
+    
+}
+
+canvas{
+    background-color: white;
+    position: absolute;
+}
+
+.color-conatiner {
+    position: absolute;
+    bottom: 40px;
+    width: 300px;
+    height: 30px;
+    background-color: var(--colorsback);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+    border-radius: 5px;
+}
+
+.color-conatiner button{
+    width: 20px;
+    height: 20px;
+    border: 0;
+}
+.color-conatiner button:focus{
+    outline: none;
+}
+
+.color-conatiner button:hover{
+    outline: solid #60935D;
+}
+
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#pink{
+    background-color: pink;
+}
+#white{
+    background-color: white;
+}
+
+
